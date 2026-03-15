@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>marie</title>
+    <link rel="icon" type="image/x-icon" href="./assets/logo.jpeg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <br><br>
+    <a href="index.html"><h1>marie van der linden</h1></a>
+    
+    <section class="columns">
+
+        <div class="menu">
+            <br><br>
+            <button onclick="show_photos()">
+                photos
+            </button>
+            <br><br>
+            <button onclick="show_drawings()">
+                drawings
+            </button>
+        </div>
+
+        <div class="windows">
+
+            <div style="align-self: center;" id="drawing">
+                <a href="fotoshootalma.html">
+                    <p>radio dagerblad</p>
+                    <img src="assets/c.jpeg">
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <p>nog een project</p>
+                    <img src="assets/foto.png" alt="">
+                </a>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <script>
+        function show_photos() {
+            var x = document.getElementById("drawing");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>
