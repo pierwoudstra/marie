@@ -1,6 +1,5 @@
 
 
-
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +11,7 @@
 body {
         background-color: rgb(249, 249, 249);
 
-    /* background-image: url(assets/back.jpg); */
+     background-image: url(assets/backgroundwebsite5.jpg); 
     /* background-color: rgba(255, 255, 255, 1.0); */
     /* background-blend-mode: lighten; */
       background-repeat: no-repeat;
@@ -35,6 +34,7 @@ h2 {
     font-family: "Arial Narrow", sans-serif;
     font-size:2vw;
     color: #3a3a3a;
+
  
 }
 
@@ -184,3 +184,15 @@ button {
         height: auto;
     }
 }
+
+
+
+img:hover{
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+box-shadow: 5px 6px 36px -4px #000000; 
+}
+
